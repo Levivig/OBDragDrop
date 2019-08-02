@@ -364,7 +364,7 @@
       CGRect frameInOverlayWindow = [overlayWindow convertRect:frameInOriginalWindow fromWindow:sourceView.window];
       dragView = [[UIView alloc] initWithFrame:frameInOverlayWindow];
       dragView.opaque = NO;
-      dragView.backgroundColor = [UIColor colorWithWhite:1.0 alpha:0.5];
+      dragView.backgroundColor = [UIColor colorWithWhite:0.9 alpha:0.5];
     }
 
     [overlayWindow addSubview:dragView];
